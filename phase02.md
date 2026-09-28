@@ -16,9 +16,9 @@ Practice creating a Pull Request and conducting a code review as a peer reviewer
     - Go to GitHub, repository `SE322MT_MINER`.
     - Click **"Pull requests"** → **"New pull request"**.
     - Set the branches:
-        - `base:` **`feature/alpha/constants-placeholder`** (if you are in Alpha)
-        - `base:` **`feature/beta/constants-placeholder`** (if you are in Beta)
-        - `compare:` Your personal branch `feature/[surname]-constants-placeholder`
+        - `base:` **`feature/alpha/tilemap`** (if you are in Alpha)
+        - `base:` **`feature/beta/tilemap`** (if you are in Beta)
+        - `compare:` Your personal branch `feature/[surname]-tilemap`
 
 3.  **Fill in the PR description:**
     - **Title:** Describe what you did (e.g., `Refactor: Extract magic numbers to constants`)
