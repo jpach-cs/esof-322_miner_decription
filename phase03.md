@@ -78,3 +78,26 @@ Implement the stamina system. The player has stamina that decreases when jumping
 ---
 
 ## Branch Naming Convention
+
+```text
+alpha/feature/stamina_system/kowalski   (if in Team Alpha)
+beta/feature/stamina_system/smith       (if in Team Beta)
+```
+---
+
+## Technical Hints
+
+- **Stamina as float:** Allows fractional values for smooth calculations.
+- **Check stamina before jump:** Use `if (stamina >= JUMP_STAMINA_COST)` before allowing jump.
+- **Food tile detection:** Check if `tile_at_player_position == FOOD`. If so, regenerate.
+- **Penalty calculation:** `effective_speed = base_speed * 0.75f` when stamina low.
+- **Keep updating debug text:** Call `DrawDebugStamina(player)` every frame in main loop.
+
+---
+
+## Deliverables
+
+1. **Branch:** `alpha/feature/stamina_system/[surname]` or `beta/feature/stamina_system/[surname]`
+3. **PR Description:** Clearly explain what you implemented and how to test it.
+4. **Code Review:** Assigned teammate reviews and approves.
+
