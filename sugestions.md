@@ -1,3 +1,4 @@
+```text
 src/
   model/                 <- zero raylib
     config.hpp           (constexpr)
@@ -13,3 +14,4 @@ src/
     input.hpp/.cpp      (readPlayerInput)
   main.cpp              (windows, render target, loop)
 tests/  third_party/doctest.h  docs/  Makefile
+```
